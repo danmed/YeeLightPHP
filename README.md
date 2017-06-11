@@ -14,6 +14,6 @@ Primarily built to allow the control of Yee bulbs via an HTTP call in HA-Bridge
 
 # Usage
 
-* Turn On Bulb - http://<IPADDRESS>/yeephp.php?bulb=192.168.x.x&action=turn%20on
-* Turn Off Bulb - http://<IPADDRESS>/yeephp.php?bulb=192.168.x.x&action=turn%20off
-* Control Brightness - http://<IPADDRESS>/yeephp.php?bulb=192.168.x.x&action=brightness%2050
+* Turn On Bulb - http://<IPADDRESS>/yeelightphp.php?bulb=192.168.x.x&action=turn%20on
+* Turn Off Bulb - http://<IPADDRESS>/yeelightphp.php?bulb=192.168.x.x&action=turn%20off
+* Control Brightness - http://<IPADDRESS>/yeelightphp.php?bulb=192.168.x.x&action=brightness%2050
