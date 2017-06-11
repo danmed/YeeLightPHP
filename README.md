@@ -1,4 +1,4 @@
-# YeePHP
+# YeeLightPHP
 PHP Page to control YeeCLI.
 Primarily built to allow the control of Yee bulbs via an HTTP call in HA-Bridge
 
