@@ -1,7 +1,7 @@
 <?php
 
 */ Build array of bulbs as below */
-
+*/ ("NAME","IP","EFFECT","DURATION") */
 
 $bulbs = array
   (
@@ -30,11 +30,7 @@ IF (ISSET($_GET['bulb']))
   }
 
 
-for ($row = 0; $row < 4; $row++) {
-  for ($col = 0; $col < 4; $col++) {
-    echo "<li>".$bulbs[$row][$col]."</li>";
-  }
-}
+
 
 
 ?>
