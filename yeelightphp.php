@@ -3,11 +3,7 @@
 */ Build array of bulbs as below */
 */ ("NAME","IP","EFFECT","DURATION") */
 
-$bulbs = array
-  (
-  array("LAURA-LAMP","192.168.2.210","smooth","500"),
-  array("DAN-LAMP","192.168.2.211","smooth","500")
-  );
+
 
 */ Get Bulb IP and the action you want to perform */
 IF (ISSET($_GET['bulb']))
@@ -29,7 +25,11 @@ IF (ISSET($_GET['bulb']))
   echo "<pre>$output</pre>";
   }
 
-
+for ($row = 0; $row < 4; $row++) {
+  for ($col = 0; $col < 4; $col++) {
+    echo "<li>".$bulbs[$row][$col]."</li>";
+  }
+}
 
 
 
