@@ -4,7 +4,7 @@
   $bulb = $_GET['bulb'];
   $action = $_GET['action'];
 
-//Set transition and duration globally
+//Set transition and duration
   $effect = $_GET['effect'];
   $duration = $_GET['duration'];
 
@@ -15,6 +15,6 @@
   $output = shell_exec($command);
 
 //Echo the result
-  echo "<pre>$output</pre>";
+  echo "<center><pre>$output</pre>";
 
 ?>
