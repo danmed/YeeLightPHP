@@ -1,6 +1,15 @@
 <?php
 
+*/ Add bulbs to array below */
+*/ ("NAME","IP","EFFECT","DURATION") */
+*/ Effect can be smooth or instant */
 
+$bulbs = array
+  (
+  array("LAURA-LAMP","192.168.2.210","smooth","500"),
+  array("DAN-LAMP","192.168.2.211","smooth","500")
+  );
+  
 
 IF(ISSET($_GET['bulb'])) {
 */ Get Bulb IP and the action you want to perform */
@@ -21,12 +30,6 @@ IF(ISSET($_GET['bulb'])) {
   echo "<pre>$output</pre>";
 }
 
-for ($row = 0; $row < 4; $row++) {
 
-  for ($col = 0; $col < 4; $col++) {
-    echo "<li>".$bulbs[$row][$col]."</li>";
-  }
-
-}
 
 ?>
