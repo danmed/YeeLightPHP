@@ -5,8 +5,8 @@
   $action = $_GET['action'];
 
 //Set transition and duration globally
-  $effect = "smooth";
-  $duration = "500";
+  $effect = $_GET['effect'];
+  $duration = $_GET['duration'];
 
 //Build command to send to yeecli
   $command = 'yee --ip=' . $bulb . ' -e ' . $effect . ' -d ' . $duration . ' ' . $action;
