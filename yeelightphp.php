@@ -1,13 +1,6 @@
 <?php
 
-*/ Build array of bulbs as below */
-*/ ("NAME","IP","EFFECT","DURATION") */
-
-
-
 */ Get Bulb IP and the action you want to perform */
-IF (ISSET($_GET['bulb']))
-  {
   $bulb = $_GET['bulb'];
   $action = $_GET['action'];
 
@@ -23,14 +16,5 @@ IF (ISSET($_GET['bulb']))
 
 */ Echo the result */
   echo "<pre>$output</pre>";
-  }
-
-for ($row = 0; $row < 4; $row++) {
-  for ($col = 0; $col < 4; $col++) {
-    echo "<li>".$bulbs[$row][$col]."</li>";
-  }
-}
-
-
 
 ?>
