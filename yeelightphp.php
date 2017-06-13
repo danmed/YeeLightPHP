@@ -11,7 +11,6 @@ $bulbs = array
   );
   
 
-IF(ISSET($_GET['bulb'])) {
 */ Get Bulb IP and the action you want to perform */
   $bulb = $_GET['bulb'];
   $action = $_GET['action'];
@@ -28,7 +27,7 @@ IF(ISSET($_GET['bulb'])) {
 
 */ Echo the result */
   echo "<pre>$output</pre>";
-}
+
 
 
 
