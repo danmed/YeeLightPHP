@@ -1,3 +1,5 @@
+<center><h1><a href="https://github.com/danmed/YeeLightPHP">YeeLightPHP</a></h1><br>
+PHP Wrapper for <A href="https://pypi.python.org/pypi/yeecli">YeeCLI</a>
 <?PHP  
 
 //Get Bulb IP and the action you want to perform
@@ -15,6 +17,6 @@
   $output = shell_exec($command);
 
 //Echo the result
-  echo "<center><pre>$output</pre>";
+  echo "<br><pre>$output</pre>";
 
 ?>
